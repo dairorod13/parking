@@ -1,0 +1,113 @@
+body{
+    color: white;
+    background-image: url('assets/img/parking.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.general{
+    padding: 0%;
+    marging: 0&;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+
+.big-1{
+    margin: 2%;
+    width: 100%;
+    flex: 6;
+}
+.padre-big{
+    display: flex;
+    flex-direction: column;
+}
+.big{
+    border: solid red;
+    background: red;
+    color: white;
+    height: 100px;
+    margin: 1%;
+}
+.big:hover{
+    border: solid #000aff;
+    background: #394cff;
+    color: white;
+}
+.big img{
+    width: 50%;
+}
+
+.big-2{
+    margin: 2%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.small-1{
+     margin: 25px;
+     height: 100px;
+     display: flex;
+     flex-direction: row;
+}
+.carro-1{
+    width: 12%;
+    height: 120px;
+    background: green;
+    color: white;
+    border: solid green;
+    margin: 5px;
+}
+.carro-1:hover{
+    background: blue;
+    color: white;
+    border: solid blue;
+}
+.carro-1 img{
+    width: 120%;
+}
+.small-2{
+    margin-left: 80px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.moto-1{
+    margin: 25px;
+    width: 10%;
+    height: 60px;
+    margin: 5px;
+    background: #E91E63;
+    border: solid #E91E63;
+    color: white;
+}
+.moto-1:hover{
+    color: white;
+    background: blue;
+    border: solid blue;
+}
+.moto-1 img{
+    width: 100%;
+}
+.small-3{
+     margin: 25px;
+     height: 100px;
+     display: flex;
+     flex-direction: row;
+}
+.carro-2{
+    width: 12%;
+    height: 120px;
+    background: green;
+    color: white;
+    border: solid green;
+    margin: 5px;
+}
+.carro-2:hover{
+    background: blue;
+    color: white;
+    border: solid blue;
+}
+.carro-2 img{
+    width: 110%;
+}
